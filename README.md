@@ -1,3 +1,6 @@
+## PORTFOLIO FOTOGRAFICO
+
+
 ## HOW TO START BACKEND ✨
 
 To run your Flask project, ensure that your virtual environment is activated. If you haven't created a virtual environment yet, you can do so using the following command (make sure you are in the main folder of your project):  
@@ -75,4 +78,35 @@ $ git checkout ft-switch-branch
 $ git branch  
 ```
 
-# Portfolio-Fotografico
+
+## TAILWIND
+```bash
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+npm install @headlessui/react
+npm install @heroicons/react
+```
+
+En tailwind.config.js:
+```json
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
+En index.css:
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
