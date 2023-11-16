@@ -12,7 +12,7 @@ const navigation = [
   { name: 'Company', href: '#' },
 ]
 
-export default function HomeScreen() {
+export const HomeScreen = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (

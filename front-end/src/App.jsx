@@ -4,7 +4,8 @@ import { Navigate, Route, Routes } from "react-router-dom"
 import { Navbar } from "./routes/components/NavBar"
 
 // Pages
-import { HomeScreen } from "./routes/pages/HomeScreen"
+// src/App.jsx
+import { HomeScreen } from "./routes/pages/HomeScreen";
 import { AboutScreen } from "./routes/pages/AboutScreen"
 import { ContactScreen } from "./routes/pages/ContactScreen"
 import { LoginScreen } from "./routes/pages/LoginScreen"
